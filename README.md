@@ -1,7 +1,7 @@
 # Technical Health
 
 
-![technical-health-thumbnail](https://user-images.githubusercontent.com/80474608/196736805-9a6b629b-97d6-421f-9454-9d4f8e000172.png)
+![technical-health-thumbnail](https://user-images.githubusercontent.com/80474608/196737197-68dabdb4-5ff7-47e8-80ea-bba832a6864b.png)
 
 
 ## About
