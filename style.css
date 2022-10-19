@@ -8,69 +8,108 @@
 
 /* Headings and a text: font-family: 'Roboto', sans-serif; */
 /* p text: font-family: 'Playfair Display', serif; */
-
+/*Creating 1920x1080 screen media querie*/
+@media only screen and (max-width: 1920px) {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #051622;
     color: #DEB992;
-    font-size: 16px;
-}
-.container {
-    width: 1024px;
-    min-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#nav-container {
-    position: fixed;
-    max-width: 50em;
+    font-size: 1em;
+    margin: auto;
+    overflow-x: hidden;
 }
 #navbar {
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50em;
-    width: 11em;
-    border-right: solid 1px #DEB992;
-}
-
-.header-heading {
-    color: #DEB992;
-    font-size: 40px;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
+    height: 50vh;
+    width: 10vw;
+    /* background: rgba(0, 0, 0, 0.950); */
+    margin-left: 3vw;
+    border-radius: 1.5em;
+    z-index: 2;
 }
 .h1-hero {
-    border-bottom: solid 1px #DEB992;
-    border-top: solid 1px #DEB992;
+    margin-top: 7vh;
+  }
+.main-heading {
+    color: #DEB992;
+    font-size: 2.3em;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     text-align: center;
-    padding-right: 10px;
 }
 a {
     text-decoration: none;
-    color: #1BA098;
-    font-size: 20px;
+    color: #C9B29B;
+    font-size: 1.2em;
     font-family: 'Playfair Display', serif;
-    
+    margin: 1vh 0vw;
 }
-.nav-button {
-    border-bottom: solid #DEB992 1px;
-    padding: 15px 0px 15px 0px;
+.nav-button-container {
+    padding: 1%;
     text-align: center;
-    width: 175px;
-}
-#main-doc {
-    margin-left: 15em;
-    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    border-right: solid 1px aqua;
+    padding-right: 2vw;
+    margin: 2vh 0vw 0vh 2vw;
+    height: 23.2vh;    
 }
+.section-position {
+    padding-left: 15vw;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+}
+#beginnings {
+    background-image: url(/images/beginnings.jpg);
+    /* filter: blur(1px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+/* #sleep {
+    background-image: url(/images/sleepy-clouds.jpg);
+    filter: blur(1px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+#nutrition {
+    background-image: url(/images/healthy-eating.jpg);
+    filter: blur(1px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+#training {
+    background-image: url(/images/weight-rack.jpg);
+    filter: blur(1px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+#summary {
+    background-image: url(/images/mountain-summary.jpg);
+    filter: blur(1px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+} */
 .art-heading {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 2em;
+    color: aqua;
     font-family: 'Playfair Display', serif;
     padding: 10px 0px 10px 0px;
+    margin: auto;
 }
 .summary-point {
     font-size: 12px;
@@ -80,17 +119,8 @@ a {
 }
 /* Sizing for mobile/phones */
 @media (max-width: 600px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 300px;
-  }
   #nav-container {
     display: none;
   }
-  #main-doc {
-    display: contents;
-    text-align: center;
-  }
+}
 }
