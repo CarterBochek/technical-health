@@ -64,14 +64,14 @@ section {
     height: 100vh;
     width: 100vw;
 }
-#beginnings {
-    background-image: url(/images/beginnings.jpg);
+/* #beginnings {
+    background-image: url(/images/beginnings.jpg); */
     /* filter: blur(1px); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
     position: relative;
-}
+} */
 /* #sleep {
     background-image: url(/images/sleepy-clouds.jpg);
     filter: blur(1px);
@@ -108,8 +108,12 @@ section {
     font-size: 2em;
     color: aqua;
     font-family: 'Playfair Display', serif;
-    padding: 10px 0px 10px 0px;
+    padding: 5vw 2vw 2vh 0vw;
     margin: auto;
+}
+article {
+    padding: 1em;
+    margin: 1vh 5vw;
 }
 .summary-point {
     font-size: 12px;
