@@ -108,18 +108,20 @@ section {
     font-size: 2em;
     color: aqua;
     font-family: 'Playfair Display', serif;
-    padding: 5vw 2vw 2vh 0vw;
+    padding: 5vw 2vw 2vh 6vw;
     margin: auto;
 }
 article {
     padding: 1em;
     margin: 1vh 5vw;
+    width: 50vw;
 }
 .summary-point {
-    font-size: 12px;
-    background-color: #d3d3d3;
-    color: #000000;
-    padding: 15px;
+    padding: 2.5em;
+    border-radius: 2em;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: left;
 }
 /* Sizing for mobile/phones */
 @media (max-width: 600px) {
